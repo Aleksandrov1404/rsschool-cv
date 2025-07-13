@@ -1,0 +1,113 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+main {
+  padding: 30px 20px;
+}
+
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.containe {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+
+}
+
+h2 {
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #374151;
+}
+
+/* Списки */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* Блок кода */
+pre {
+  background-color: #f3f4f6;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+code {
+  color: #111827;
+}
+
+/* Образование */
+.container5 a {
+  display: block;
+  font-style: normal;
+}
+
+.container5 i {
+  color: #6b7280;
+}
+
+/* Футер */
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+}
